@@ -1,0 +1,22 @@
+{
+  "name": "@thinairthings/dom-utils",
+  "version": "1.0.0",
+  "description": "Thin Air Dom Utils",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ThinAirThings/dom-utils.git"
+  },
+  "scripts": {
+    "npmpub": "tsc && git add . && git commit -m \"mod\" && git push && npm version patch && npm publish"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
+    "access": "public"
+  },
+  "keywords": [],
+  "author": "Dan Lannan",
+  "license": "MIT",
+  "dependencies": {}
+}
